@@ -86,6 +86,9 @@ For example:
 http://192.168.1.100:6789/HelloWorld.html
 ```
 
+### Screenshot
+![Webserver serving HelloWorld.html](./screenshots/webserver.png)
+
 **Testing locally (on the same machine):**
 ```
 http://localhost:6789/HelloWorld.html
@@ -99,6 +102,9 @@ Try to access a file that doesn't exist:
 http://localhost:6789/DoesNotExist.html
 ```
 You should see the "404 Not Found" message.
+
+### Screenshot
+![Webserver serving NoFile.html](./screenshots/nofile.png)
 
 ## Key Concepts
 
